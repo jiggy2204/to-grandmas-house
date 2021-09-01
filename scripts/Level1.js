@@ -11,10 +11,10 @@ class Level1 extends Phaser.Scene {
     );
 
     //Player
-    this.load.atlas(
+    this.load.multiatlas(
       "player",
-      "../_sprites/redridinghood/sprite_red_itch.png",
-      "../_sprites/redridinghood/sprite_red_itch.json"
+      "../_sprites/redridinghood/redridinghood.json",
+      "../_sprites/redridinghood"
     );
 
     //Load Flower Image
@@ -43,12 +43,37 @@ class Level1 extends Phaser.Scene {
       "level1tiles"
     );
 
+    //Flower- create sprite group for all flowers
+    //Make sure they don't move by gravity or player collision
+    gameState.flower = this.physics.add.group({
+      allowGravity: false,
+      immovable: true,
+    });
+
+    //Get Flower OBJECTS - these are NOT sprites
+    const flowerObjects = level1_map.getObjectLayer("Flowers")["objects"];
+
+    //create sprites in our group for each object in our map
+    flowerObjects.forEach((flowerObject) => {
+      const flower = gameState.flower
+        .create(flowerObject.x, flowerObject.y - flowerObject.height, "flower")
+        .setOrigin(0, -0.35);
+    });
+
     //add platform layer
     const platforms = level1_map.createStaticLayer(
       "Platforms",
       level1_tileset,
       0,
-      0
+      -10
+    );
+
+    //Player
+    gameState.player = this.add.sprite(
+      50,
+      450,
+      "player",
+      "idle/idle_sheet-Sheet-0.png"
     );
 
     // Layer can collide with other objects
@@ -58,27 +83,22 @@ class Level1 extends Phaser.Scene {
     this.physics.add.collider(gameState.player, platforms);
 
     //ANIMATIONS FOR PLAYER
-    var idle = this.textures.addSpriteSheetFromAtlas("idle", {
-      atlas: "player",
-      frame: "idle_sheet-Sheet",
-      frameWidth: 75,
-      frameHeight: 100,
-      endFrame: 12,
+    var idleFrame = this.anims.generateFrameNames("player", {
+      start: 0,
+      end: 17,
+      zeroPad: 0,
+      prefix: "idle_sheet-Sheet-",
+      suffix: ".png",
     });
 
-    var idleConfig = {
-      key: "idle-anim",
-      frames: this.anims.generateFrameNumbers("idle", {
-        start: 0,
-        end: 23,
-        first: 23,
-      }),
+    this.anims.create({
+      key: "idle",
+      frames: idleFrame,
       frameRate: 15,
       repeat: -1,
-    };
+    });
 
-    this.anims.create(idleConfig);
-    this.add.sprite(50, 350).play("idle-anim");
+    gameState.player.anims.play("idle");
 
     //create cursor keys
     gameState.cursors = this.input.keyboard.createCursorKeys();

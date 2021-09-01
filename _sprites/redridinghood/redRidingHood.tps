@@ -34,7 +34,7 @@
         <key>dataFormat</key>
         <string>phaser</string>
         <key>textureFileName</key>
-        <filename></filename>
+        <filename>redridinghood-{n}.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -56,7 +56,7 @@
         <key>jxrCompressionLevel</key>
         <uint>0</uint>
         <key>ditherType</key>
-        <enum type="SettingsBase::DitherType">NearestNeighbour</enum>
+        <enum type="SettingsBase::DitherType">PngQuantLow</enum>
         <key>backgroundColor</key>
         <uint>0</uint>
         <key>libGdx</key>
@@ -82,7 +82,7 @@
         <key>atfFormats</key>
         <string></string>
         <key>textureFormat</key>
-        <enum type="SettingsBase::TextureFormat">png</enum>
+        <enum type="SettingsBase::TextureFormat">png8</enum>
         <key>borderPadding</key>
         <uint>0</uint>
         <key>maxTextureSize</key>
@@ -132,11 +132,11 @@
             <key>json</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename></filename>
+                <filename>redridinghood.json</filename>
             </struct>
         </map>
         <key>multiPack</key>
-        <false/>
+        <true/>
         <key>forceIdenticalLayout</key>
         <false/>
         <key>outputFormat</key>
@@ -149,7 +149,7 @@
             <string></string>
         </struct>
         <key>autoAliasEnabled</key>
-        <false/>
+        <true/>
         <key>trimSpriteNames</key>
         <false/>
         <key>prependSmartFolderName</key>
@@ -181,7 +181,100 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">idle_sheet-Sheet.png</key>
+            <key type="filename">hurt/itch_hurt_2_sheet-Sheet-0.png</key>
+            <key type="filename">hurt/itch_hurt_2_sheet-Sheet-1.png</key>
+            <key type="filename">hurt/itch_hurt_2_sheet-Sheet-2.png</key>
+            <key type="filename">hurt/itch_hurt_2_sheet-Sheet-3.png</key>
+            <key type="filename">hurt/itch_hurt_2_sheet-Sheet-4.png</key>
+            <key type="filename">hurt/itch_hurt_2_sheet-Sheet-5.png</key>
+            <key type="filename">hurt/itch_hurt_2_sheet-Sheet-6.png</key>
+            <key type="filename">idle/idle_sheet-Sheet-0.png</key>
+            <key type="filename">idle/idle_sheet-Sheet-1.png</key>
+            <key type="filename">idle/idle_sheet-Sheet-10.png</key>
+            <key type="filename">idle/idle_sheet-Sheet-11.png</key>
+            <key type="filename">idle/idle_sheet-Sheet-12.png</key>
+            <key type="filename">idle/idle_sheet-Sheet-13.png</key>
+            <key type="filename">idle/idle_sheet-Sheet-14.png</key>
+            <key type="filename">idle/idle_sheet-Sheet-15.png</key>
+            <key type="filename">idle/idle_sheet-Sheet-16.png</key>
+            <key type="filename">idle/idle_sheet-Sheet-17.png</key>
+            <key type="filename">idle/idle_sheet-Sheet-2.png</key>
+            <key type="filename">idle/idle_sheet-Sheet-3.png</key>
+            <key type="filename">idle/idle_sheet-Sheet-4.png</key>
+            <key type="filename">idle/idle_sheet-Sheet-5.png</key>
+            <key type="filename">idle/idle_sheet-Sheet-6.png</key>
+            <key type="filename">idle/idle_sheet-Sheet-7.png</key>
+            <key type="filename">idle/idle_sheet-Sheet-8.png</key>
+            <key type="filename">idle/idle_sheet-Sheet-9.png</key>
+            <key type="filename">jump/itch_jump_sheet-Sheet-0.png</key>
+            <key type="filename">jump/itch_jump_sheet-Sheet-1.png</key>
+            <key type="filename">jump/itch_jump_sheet-Sheet-10.png</key>
+            <key type="filename">jump/itch_jump_sheet-Sheet-11.png</key>
+            <key type="filename">jump/itch_jump_sheet-Sheet-12.png</key>
+            <key type="filename">jump/itch_jump_sheet-Sheet-13.png</key>
+            <key type="filename">jump/itch_jump_sheet-Sheet-14.png</key>
+            <key type="filename">jump/itch_jump_sheet-Sheet-15.png</key>
+            <key type="filename">jump/itch_jump_sheet-Sheet-16.png</key>
+            <key type="filename">jump/itch_jump_sheet-Sheet-17.png</key>
+            <key type="filename">jump/itch_jump_sheet-Sheet-18.png</key>
+            <key type="filename">jump/itch_jump_sheet-Sheet-2.png</key>
+            <key type="filename">jump/itch_jump_sheet-Sheet-3.png</key>
+            <key type="filename">jump/itch_jump_sheet-Sheet-4.png</key>
+            <key type="filename">jump/itch_jump_sheet-Sheet-5.png</key>
+            <key type="filename">jump/itch_jump_sheet-Sheet-6.png</key>
+            <key type="filename">jump/itch_jump_sheet-Sheet-7.png</key>
+            <key type="filename">jump/itch_jump_sheet-Sheet-8.png</key>
+            <key type="filename">jump/itch_jump_sheet-Sheet-9.png</key>
+            <key type="filename">light_attack/itch_light_attack_sheet-Sheet-0.png</key>
+            <key type="filename">light_attack/itch_light_attack_sheet-Sheet-1.png</key>
+            <key type="filename">light_attack/itch_light_attack_sheet-Sheet-10.png</key>
+            <key type="filename">light_attack/itch_light_attack_sheet-Sheet-11.png</key>
+            <key type="filename">light_attack/itch_light_attack_sheet-Sheet-12.png</key>
+            <key type="filename">light_attack/itch_light_attack_sheet-Sheet-13.png</key>
+            <key type="filename">light_attack/itch_light_attack_sheet-Sheet-14.png</key>
+            <key type="filename">light_attack/itch_light_attack_sheet-Sheet-15.png</key>
+            <key type="filename">light_attack/itch_light_attack_sheet-Sheet-16.png</key>
+            <key type="filename">light_attack/itch_light_attack_sheet-Sheet-17.png</key>
+            <key type="filename">light_attack/itch_light_attack_sheet-Sheet-18.png</key>
+            <key type="filename">light_attack/itch_light_attack_sheet-Sheet-19.png</key>
+            <key type="filename">light_attack/itch_light_attack_sheet-Sheet-2.png</key>
+            <key type="filename">light_attack/itch_light_attack_sheet-Sheet-20.png</key>
+            <key type="filename">light_attack/itch_light_attack_sheet-Sheet-21.png</key>
+            <key type="filename">light_attack/itch_light_attack_sheet-Sheet-22.png</key>
+            <key type="filename">light_attack/itch_light_attack_sheet-Sheet-23.png</key>
+            <key type="filename">light_attack/itch_light_attack_sheet-Sheet-24.png</key>
+            <key type="filename">light_attack/itch_light_attack_sheet-Sheet-25.png</key>
+            <key type="filename">light_attack/itch_light_attack_sheet-Sheet-3.png</key>
+            <key type="filename">light_attack/itch_light_attack_sheet-Sheet-4.png</key>
+            <key type="filename">light_attack/itch_light_attack_sheet-Sheet-5.png</key>
+            <key type="filename">light_attack/itch_light_attack_sheet-Sheet-6.png</key>
+            <key type="filename">light_attack/itch_light_attack_sheet-Sheet-7.png</key>
+            <key type="filename">light_attack/itch_light_attack_sheet-Sheet-8.png</key>
+            <key type="filename">light_attack/itch_light_attack_sheet-Sheet-9.png</key>
+            <key type="filename">run/itch_run_sheet-Sheet-0.png</key>
+            <key type="filename">run/itch_run_sheet-Sheet-1.png</key>
+            <key type="filename">run/itch_run_sheet-Sheet-10.png</key>
+            <key type="filename">run/itch_run_sheet-Sheet-11.png</key>
+            <key type="filename">run/itch_run_sheet-Sheet-12.png</key>
+            <key type="filename">run/itch_run_sheet-Sheet-13.png</key>
+            <key type="filename">run/itch_run_sheet-Sheet-14.png</key>
+            <key type="filename">run/itch_run_sheet-Sheet-15.png</key>
+            <key type="filename">run/itch_run_sheet-Sheet-16.png</key>
+            <key type="filename">run/itch_run_sheet-Sheet-17.png</key>
+            <key type="filename">run/itch_run_sheet-Sheet-18.png</key>
+            <key type="filename">run/itch_run_sheet-Sheet-19.png</key>
+            <key type="filename">run/itch_run_sheet-Sheet-2.png</key>
+            <key type="filename">run/itch_run_sheet-Sheet-20.png</key>
+            <key type="filename">run/itch_run_sheet-Sheet-21.png</key>
+            <key type="filename">run/itch_run_sheet-Sheet-22.png</key>
+            <key type="filename">run/itch_run_sheet-Sheet-23.png</key>
+            <key type="filename">run/itch_run_sheet-Sheet-3.png</key>
+            <key type="filename">run/itch_run_sheet-Sheet-4.png</key>
+            <key type="filename">run/itch_run_sheet-Sheet-5.png</key>
+            <key type="filename">run/itch_run_sheet-Sheet-6.png</key>
+            <key type="filename">run/itch_run_sheet-Sheet-7.png</key>
+            <key type="filename">run/itch_run_sheet-Sheet-8.png</key>
+            <key type="filename">run/itch_run_sheet-Sheet-9.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -190,13 +283,13 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>360,20,720,40</rect>
+                <rect>20,20,40,40</rect>
                 <key>scale9Paddings</key>
-                <rect>360,20,720,40</rect>
+                <rect>20,20,40,40</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">itch_hurt_2_sheet-Sheet.png</key>
+            <key type="filename">redridinghood.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -205,13 +298,21 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>140,20,280,40</rect>
+                <rect>32,175,64,349</rect>
                 <key>scale9Paddings</key>
-                <rect>140,20,280,40</rect>
+                <rect>32,175,64,349</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">itch_jump_sheet-Sheet.png</key>
+            <key type="filename">run_turnaround/run_turnaround_sheet-0.png</key>
+            <key type="filename">run_turnaround/run_turnaround_sheet-1.png</key>
+            <key type="filename">run_turnaround/run_turnaround_sheet-2.png</key>
+            <key type="filename">run_turnaround/run_turnaround_sheet-3.png</key>
+            <key type="filename">run_turnaround/run_turnaround_sheet-4.png</key>
+            <key type="filename">wall_slide/wall_slide_sheet-0.png</key>
+            <key type="filename">wall_slide/wall_slide_sheet-1.png</key>
+            <key type="filename">wall_slide/wall_slide_sheet-2.png</key>
+            <key type="filename">wall_slide/wall_slide_sheet-3.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -220,82 +321,16 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>380,20,760,40</rect>
+                <rect>20,13,40,25</rect>
                 <key>scale9Paddings</key>
-                <rect>380,20,760,40</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">itch_light_attack_sheet-Sheet.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>520,20,1040,40</rect>
-                <key>scale9Paddings</key>
-                <rect>520,20,1040,40</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">itch_run_sheet-Sheet.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>480,20,960,40</rect>
-                <key>scale9Paddings</key>
-                <rect>480,20,960,40</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">run_turnaround_sheet.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>100,16,200,32</rect>
-                <key>scale9Paddings</key>
-                <rect>100,16,200,32</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">wall_slide_sheet.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>80,16,160,32</rect>
-                <key>scale9Paddings</key>
-                <rect>80,16,160,32</rect>
+                <rect>20,13,40,25</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
         </map>
         <key>fileList</key>
         <array>
-            <filename>idle_sheet-Sheet.png</filename>
-            <filename>itch_hurt_2_sheet-Sheet.png</filename>
-            <filename>itch_jump_sheet-Sheet.png</filename>
-            <filename>itch_light_attack_sheet-Sheet.png</filename>
-            <filename>itch_run_sheet-Sheet.png</filename>
-            <filename>run_turnaround_sheet.png</filename>
-            <filename>wall_slide_sheet.png</filename>
+            <filename>.</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

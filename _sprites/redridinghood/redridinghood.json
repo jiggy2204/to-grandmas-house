@@ -1,0 +1,2204 @@
+{
+	"textures": [
+		{
+			"image": "redridinghood-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 128,
+				"h": 1396
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "redridinghood.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 128,
+						"h": 698
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 126,
+						"h": 696
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 126,
+						"h": 696
+					}
+				},
+				{
+					"filename": "light_attack/itch_light_attack_sheet-Sheet-16.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 25,
+						"w": 46,
+						"h": 35
+					},
+					"frame": {
+						"x": 1,
+						"y": 699,
+						"w": 46,
+						"h": 35
+					}
+				},
+				{
+					"filename": "light_attack/itch_light_attack_sheet-Sheet-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 26,
+						"w": 45,
+						"h": 34
+					},
+					"frame": {
+						"x": 49,
+						"y": 699,
+						"w": 45,
+						"h": 34
+					}
+				},
+				{
+					"filename": "jump/itch_jump_sheet-Sheet-13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 21,
+						"w": 27,
+						"h": 39
+					},
+					"frame": {
+						"x": 96,
+						"y": 699,
+						"w": 27,
+						"h": 39
+					}
+				},
+				{
+					"filename": "light_attack/itch_light_attack_sheet-Sheet-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 27,
+						"w": 38,
+						"h": 33
+					},
+					"frame": {
+						"x": 49,
+						"y": 735,
+						"w": 38,
+						"h": 33
+					}
+				},
+				{
+					"filename": "jump/itch_jump_sheet-Sheet-12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 22,
+						"w": 27,
+						"h": 38
+					},
+					"frame": {
+						"x": 89,
+						"y": 740,
+						"w": 27,
+						"h": 38
+					}
+				},
+				{
+					"filename": "light_attack/itch_light_attack_sheet-Sheet-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 27,
+						"w": 46,
+						"h": 33
+					},
+					"frame": {
+						"x": 1,
+						"y": 736,
+						"w": 46,
+						"h": 33
+					}
+				},
+				{
+					"filename": "jump/itch_jump_sheet-Sheet-14.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 22,
+						"w": 27,
+						"h": 38
+					},
+					"frame": {
+						"x": 49,
+						"y": 770,
+						"w": 27,
+						"h": 38
+					}
+				},
+				{
+					"filename": "light_attack/itch_light_attack_sheet-Sheet-9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 27,
+						"w": 46,
+						"h": 33
+					},
+					"frame": {
+						"x": 1,
+						"y": 771,
+						"w": 46,
+						"h": 33
+					}
+				},
+				{
+					"filename": "light_attack/itch_light_attack_sheet-Sheet-17.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 28,
+						"w": 46,
+						"h": 32
+					},
+					"frame": {
+						"x": 1,
+						"y": 806,
+						"w": 46,
+						"h": 32
+					}
+				},
+				{
+					"filename": "light_attack/itch_light_attack_sheet-Sheet-10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 31,
+						"w": 47,
+						"h": 29
+					},
+					"frame": {
+						"x": 78,
+						"y": 780,
+						"w": 47,
+						"h": 29
+					}
+				},
+				{
+					"filename": "jump/itch_jump_sheet-Sheet-11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 24,
+						"w": 26,
+						"h": 35
+					},
+					"frame": {
+						"x": 49,
+						"y": 810,
+						"w": 26,
+						"h": 35
+					}
+				},
+				{
+					"filename": "light_attack/itch_light_attack_sheet-Sheet-8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 25,
+						"w": 26,
+						"h": 35
+					},
+					"frame": {
+						"x": 1,
+						"y": 840,
+						"w": 26,
+						"h": 35
+					}
+				},
+				{
+					"filename": "wall_slide/wall_slide_sheet-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 32,
+						"y": 15,
+						"w": 18,
+						"h": 35
+					},
+					"frame": {
+						"x": 29,
+						"y": 840,
+						"w": 18,
+						"h": 35
+					}
+				},
+				{
+					"filename": "jump/itch_jump_sheet-Sheet-10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 26,
+						"w": 27,
+						"h": 33
+					},
+					"frame": {
+						"x": 77,
+						"y": 811,
+						"w": 27,
+						"h": 33
+					}
+				},
+				{
+					"filename": "idle/idle_sheet-Sheet-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 27,
+						"w": 21,
+						"h": 33
+					},
+					"frame": {
+						"x": 106,
+						"y": 811,
+						"w": 21,
+						"h": 33
+					}
+				},
+				{
+					"filename": "light_attack/itch_light_attack_sheet-Sheet-11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 31,
+						"w": 30,
+						"h": 29
+					},
+					"frame": {
+						"x": 77,
+						"y": 846,
+						"w": 30,
+						"h": 29
+					}
+				},
+				{
+					"filename": "wall_slide/wall_slide_sheet-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 32,
+						"y": 15,
+						"w": 18,
+						"h": 35
+					},
+					"frame": {
+						"x": 109,
+						"y": 846,
+						"w": 18,
+						"h": 35
+					}
+				},
+				{
+					"filename": "run/itch_run_sheet-Sheet-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 24,
+						"w": 26,
+						"h": 33
+					},
+					"frame": {
+						"x": 49,
+						"y": 847,
+						"w": 26,
+						"h": 33
+					}
+				},
+				{
+					"filename": "jump/itch_jump_sheet-Sheet-9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 27,
+						"w": 28,
+						"h": 31
+					},
+					"frame": {
+						"x": 77,
+						"y": 877,
+						"w": 28,
+						"h": 31
+					}
+				},
+				{
+					"filename": "idle/idle_sheet-Sheet-17.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 27,
+						"w": 20,
+						"h": 33
+					},
+					"frame": {
+						"x": 107,
+						"y": 883,
+						"w": 20,
+						"h": 33
+					}
+				},
+				{
+					"filename": "run/itch_run_sheet-Sheet-12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 25,
+						"w": 25,
+						"h": 34
+					},
+					"frame": {
+						"x": 1,
+						"y": 877,
+						"w": 25,
+						"h": 34
+					}
+				},
+				{
+					"filename": "idle/idle_sheet-Sheet-10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 26,
+						"w": 19,
+						"h": 34
+					},
+					"frame": {
+						"x": 28,
+						"y": 877,
+						"w": 19,
+						"h": 34
+					}
+				},
+				{
+					"filename": "run/itch_run_sheet-Sheet-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 25,
+						"w": 24,
+						"h": 35
+					},
+					"frame": {
+						"x": 49,
+						"y": 882,
+						"w": 24,
+						"h": 35
+					}
+				},
+				{
+					"filename": "light_attack/itch_light_attack_sheet-Sheet-12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 29,
+						"w": 27,
+						"h": 31
+					},
+					"frame": {
+						"x": 75,
+						"y": 910,
+						"w": 27,
+						"h": 31
+					}
+				},
+				{
+					"filename": "run/itch_run_sheet-Sheet-17.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 25,
+						"w": 23,
+						"h": 33
+					},
+					"frame": {
+						"x": 104,
+						"y": 918,
+						"w": 23,
+						"h": 33
+					}
+				},
+				{
+					"filename": "light_attack/itch_light_attack_sheet-Sheet-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 29,
+						"w": 27,
+						"h": 31
+					},
+					"frame": {
+						"x": 1,
+						"y": 913,
+						"w": 27,
+						"h": 31
+					}
+				},
+				{
+					"filename": "wall_slide/wall_slide_sheet-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 32,
+						"y": 15,
+						"w": 17,
+						"h": 35
+					},
+					"frame": {
+						"x": 30,
+						"y": 913,
+						"w": 17,
+						"h": 35
+					}
+				},
+				{
+					"filename": "run/itch_run_sheet-Sheet-23.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 28,
+						"w": 24,
+						"h": 32
+					},
+					"frame": {
+						"x": 49,
+						"y": 919,
+						"w": 24,
+						"h": 32
+					}
+				},
+				{
+					"filename": "run/itch_run_sheet-Sheet-14.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 22,
+						"w": 26,
+						"h": 32
+					},
+					"frame": {
+						"x": 1,
+						"y": 946,
+						"w": 26,
+						"h": 32
+					}
+				},
+				{
+					"filename": "idle/idle_sheet-Sheet-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 26,
+						"w": 18,
+						"h": 34
+					},
+					"frame": {
+						"x": 29,
+						"y": 950,
+						"w": 18,
+						"h": 34
+					}
+				},
+				{
+					"filename": "run/itch_run_sheet-Sheet-13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 24,
+						"w": 25,
+						"h": 33
+					},
+					"frame": {
+						"x": 1,
+						"y": 980,
+						"w": 25,
+						"h": 33
+					}
+				},
+				{
+					"filename": "run/itch_run_sheet-Sheet-15.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 21,
+						"w": 26,
+						"h": 31
+					},
+					"frame": {
+						"x": 75,
+						"y": 943,
+						"w": 26,
+						"h": 31
+					}
+				},
+				{
+					"filename": "idle/idle_sheet-Sheet-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 29,
+						"w": 24,
+						"h": 31
+					},
+					"frame": {
+						"x": 49,
+						"y": 953,
+						"w": 24,
+						"h": 31
+					}
+				},
+				{
+					"filename": "idle/idle_sheet-Sheet-8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 27,
+						"w": 22,
+						"h": 33
+					},
+					"frame": {
+						"x": 103,
+						"y": 953,
+						"w": 22,
+						"h": 33
+					}
+				},
+				{
+					"filename": "run/itch_run_sheet-Sheet-16.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 23,
+						"w": 26,
+						"h": 31
+					},
+					"frame": {
+						"x": 75,
+						"y": 976,
+						"w": 26,
+						"h": 31
+					}
+				},
+				{
+					"filename": "light_attack/itch_light_attack_sheet-Sheet-7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 27,
+						"w": 22,
+						"h": 33
+					},
+					"frame": {
+						"x": 103,
+						"y": 988,
+						"w": 22,
+						"h": 33
+					}
+				},
+				{
+					"filename": "run/itch_run_sheet-Sheet-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 21,
+						"w": 26,
+						"h": 31
+					},
+					"frame": {
+						"x": 28,
+						"y": 986,
+						"w": 26,
+						"h": 31
+					}
+				},
+				{
+					"filename": "wall_slide/wall_slide_sheet-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 32,
+						"y": 16,
+						"w": 17,
+						"h": 34
+					},
+					"frame": {
+						"x": 56,
+						"y": 986,
+						"w": 17,
+						"h": 34
+					}
+				},
+				{
+					"filename": "run/itch_run_sheet-Sheet-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 22,
+						"w": 25,
+						"h": 32
+					},
+					"frame": {
+						"x": 1,
+						"y": 1015,
+						"w": 25,
+						"h": 32
+					}
+				},
+				{
+					"filename": "idle/idle_sheet-Sheet-7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 29,
+						"w": 25,
+						"h": 31
+					},
+					"frame": {
+						"x": 28,
+						"y": 1019,
+						"w": 25,
+						"h": 31
+					}
+				},
+				{
+					"filename": "idle/idle_sheet-Sheet-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 30,
+						"w": 25,
+						"h": 30
+					},
+					"frame": {
+						"x": 1,
+						"y": 1049,
+						"w": 25,
+						"h": 30
+					}
+				},
+				{
+					"filename": "jump/itch_jump_sheet-Sheet-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 29,
+						"w": 26,
+						"h": 28
+					},
+					"frame": {
+						"x": 75,
+						"y": 1009,
+						"w": 26,
+						"h": 28
+					}
+				},
+				{
+					"filename": "idle/idle_sheet-Sheet-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 26,
+						"w": 18,
+						"h": 34
+					},
+					"frame": {
+						"x": 55,
+						"y": 1022,
+						"w": 18,
+						"h": 34
+					}
+				},
+				{
+					"filename": "run/itch_run_sheet-Sheet-11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 27,
+						"w": 22,
+						"h": 33
+					},
+					"frame": {
+						"x": 28,
+						"y": 1052,
+						"w": 22,
+						"h": 33
+					}
+				},
+				{
+					"filename": "jump/itch_jump_sheet-Sheet-15.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 31,
+						"w": 25,
+						"h": 29
+					},
+					"frame": {
+						"x": 1,
+						"y": 1081,
+						"w": 25,
+						"h": 29
+					}
+				},
+				{
+					"filename": "idle/idle_sheet-Sheet-16.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 29,
+						"w": 23,
+						"h": 31
+					},
+					"frame": {
+						"x": 103,
+						"y": 1023,
+						"w": 23,
+						"h": 31
+					}
+				},
+				{
+					"filename": "light_attack/itch_light_attack_sheet-Sheet-15.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 29,
+						"w": 23,
+						"h": 31
+					},
+					"frame": {
+						"x": 75,
+						"y": 1039,
+						"w": 23,
+						"h": 31
+					}
+				},
+				{
+					"filename": "idle/idle_sheet-Sheet-9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 27,
+						"w": 21,
+						"h": 33
+					},
+					"frame": {
+						"x": 52,
+						"y": 1058,
+						"w": 21,
+						"h": 33
+					}
+				},
+				{
+					"filename": "light_attack/itch_light_attack_sheet-Sheet-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 28,
+						"w": 22,
+						"h": 32
+					},
+					"frame": {
+						"x": 28,
+						"y": 1087,
+						"w": 22,
+						"h": 32
+					}
+				},
+				{
+					"filename": "run/itch_run_sheet-Sheet-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 23,
+						"w": 23,
+						"h": 31
+					},
+					"frame": {
+						"x": 1,
+						"y": 1112,
+						"w": 23,
+						"h": 31
+					}
+				},
+				{
+					"filename": "jump/itch_jump_sheet-Sheet-7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 29,
+						"w": 27,
+						"h": 27
+					},
+					"frame": {
+						"x": 100,
+						"y": 1056,
+						"w": 27,
+						"h": 27
+					}
+				},
+				{
+					"filename": "jump/itch_jump_sheet-Sheet-8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 29,
+						"w": 27,
+						"h": 27
+					},
+					"frame": {
+						"x": 100,
+						"y": 1056,
+						"w": 27,
+						"h": 27
+					}
+				},
+				{
+					"filename": "run_turnaround/run_turnaround_sheet-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 32,
+						"y": 17,
+						"w": 21,
+						"h": 33
+					},
+					"frame": {
+						"x": 75,
+						"y": 1072,
+						"w": 21,
+						"h": 33
+					}
+				},
+				{
+					"filename": "idle/idle_sheet-Sheet-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 28,
+						"w": 21,
+						"h": 32
+					},
+					"frame": {
+						"x": 52,
+						"y": 1093,
+						"w": 21,
+						"h": 32
+					}
+				},
+				{
+					"filename": "idle/idle_sheet-Sheet-14.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 30,
+						"w": 23,
+						"h": 30
+					},
+					"frame": {
+						"x": 26,
+						"y": 1121,
+						"w": 23,
+						"h": 30
+					}
+				},
+				{
+					"filename": "idle/idle_sheet-Sheet-15.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 30,
+						"w": 23,
+						"h": 30
+					},
+					"frame": {
+						"x": 1,
+						"y": 1145,
+						"w": 23,
+						"h": 30
+					}
+				},
+				{
+					"filename": "light_attack/itch_light_attack_sheet-Sheet-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 32,
+						"w": 28,
+						"h": 28
+					},
+					"frame": {
+						"x": 98,
+						"y": 1085,
+						"w": 28,
+						"h": 28
+					}
+				},
+				{
+					"filename": "run_turnaround/run_turnaround_sheet-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 28,
+						"y": 18,
+						"w": 21,
+						"h": 32
+					},
+					"frame": {
+						"x": 75,
+						"y": 1107,
+						"w": 21,
+						"h": 32
+					}
+				},
+				{
+					"filename": "run/itch_run_sheet-Sheet-22.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 29,
+						"w": 22,
+						"h": 31
+					},
+					"frame": {
+						"x": 51,
+						"y": 1127,
+						"w": 22,
+						"h": 31
+					}
+				},
+				{
+					"filename": "light_attack/itch_light_attack_sheet-Sheet-13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 29,
+						"w": 21,
+						"h": 31
+					},
+					"frame": {
+						"x": 26,
+						"y": 1153,
+						"w": 21,
+						"h": 31
+					}
+				},
+				{
+					"filename": "run/itch_run_sheet-Sheet-10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 29,
+						"w": 21,
+						"h": 31
+					},
+					"frame": {
+						"x": 1,
+						"y": 1177,
+						"w": 21,
+						"h": 31
+					}
+				},
+				{
+					"filename": "hurt/itch_hurt_2_sheet-Sheet-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 36,
+						"w": 29,
+						"h": 24
+					},
+					"frame": {
+						"x": 98,
+						"y": 1115,
+						"w": 29,
+						"h": 24
+					}
+				},
+				{
+					"filename": "light_attack/itch_light_attack_sheet-Sheet-18.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 36,
+						"w": 32,
+						"h": 24
+					},
+					"frame": {
+						"x": 75,
+						"y": 1141,
+						"w": 32,
+						"h": 24
+					}
+				},
+				{
+					"filename": "hurt/itch_hurt_2_sheet-Sheet-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 27,
+						"w": 18,
+						"h": 33
+					},
+					"frame": {
+						"x": 109,
+						"y": 1141,
+						"w": 18,
+						"h": 33
+					}
+				},
+				{
+					"filename": "hurt/itch_hurt_2_sheet-Sheet-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 27,
+						"w": 18,
+						"h": 33
+					},
+					"frame": {
+						"x": 109,
+						"y": 1141,
+						"w": 18,
+						"h": 33
+					}
+				},
+				{
+					"filename": "idle/idle_sheet-Sheet-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 27,
+						"w": 18,
+						"h": 33
+					},
+					"frame": {
+						"x": 109,
+						"y": 1141,
+						"w": 18,
+						"h": 33
+					}
+				},
+				{
+					"filename": "jump/itch_jump_sheet-Sheet-18.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 27,
+						"w": 18,
+						"h": 33
+					},
+					"frame": {
+						"x": 109,
+						"y": 1141,
+						"w": 18,
+						"h": 33
+					}
+				},
+				{
+					"filename": "light_attack/itch_light_attack_sheet-Sheet-25.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 27,
+						"w": 18,
+						"h": 33
+					},
+					"frame": {
+						"x": 109,
+						"y": 1141,
+						"w": 18,
+						"h": 33
+					}
+				},
+				{
+					"filename": "jump/itch_jump_sheet-Sheet-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 30,
+						"w": 24,
+						"h": 28
+					},
+					"frame": {
+						"x": 49,
+						"y": 1160,
+						"w": 24,
+						"h": 28
+					}
+				},
+				{
+					"filename": "idle/idle_sheet-Sheet-11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 26,
+						"w": 19,
+						"h": 34
+					},
+					"frame": {
+						"x": 24,
+						"y": 1186,
+						"w": 19,
+						"h": 34
+					}
+				},
+				{
+					"filename": "idle/idle_sheet-Sheet-13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 28,
+						"w": 20,
+						"h": 32
+					},
+					"frame": {
+						"x": 1,
+						"y": 1210,
+						"w": 20,
+						"h": 32
+					}
+				},
+				{
+					"filename": "light_attack/itch_light_attack_sheet-Sheet-19.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 37,
+						"w": 32,
+						"h": 23
+					},
+					"frame": {
+						"x": 75,
+						"y": 1167,
+						"w": 32,
+						"h": 23
+					}
+				},
+				{
+					"filename": "run/itch_run_sheet-Sheet-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 29,
+						"w": 18,
+						"h": 31
+					},
+					"frame": {
+						"x": 109,
+						"y": 1176,
+						"w": 18,
+						"h": 31
+					}
+				},
+				{
+					"filename": "idle/idle_sheet-Sheet-12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 27,
+						"w": 19,
+						"h": 33
+					},
+					"frame": {
+						"x": 45,
+						"y": 1190,
+						"w": 19,
+						"h": 33
+					}
+				},
+				{
+					"filename": "light_attack/itch_light_attack_sheet-Sheet-14.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 25,
+						"y": 28,
+						"w": 19,
+						"h": 32
+					},
+					"frame": {
+						"x": 23,
+						"y": 1222,
+						"w": 19,
+						"h": 32
+					}
+				},
+				{
+					"filename": "run/itch_run_sheet-Sheet-18.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 28,
+						"w": 19,
+						"h": 32
+					},
+					"frame": {
+						"x": 1,
+						"y": 1244,
+						"w": 19,
+						"h": 32
+					}
+				},
+				{
+					"filename": "light_attack/itch_light_attack_sheet-Sheet-20.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 37,
+						"w": 32,
+						"h": 23
+					},
+					"frame": {
+						"x": 66,
+						"y": 1192,
+						"w": 32,
+						"h": 23
+					}
+				},
+				{
+					"filename": "hurt/itch_hurt_2_sheet-Sheet-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 35,
+						"w": 25,
+						"h": 25
+					},
+					"frame": {
+						"x": 100,
+						"y": 1209,
+						"w": 25,
+						"h": 25
+					}
+				},
+				{
+					"filename": "light_attack/itch_light_attack_sheet-Sheet-21.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 37,
+						"w": 32,
+						"h": 23
+					},
+					"frame": {
+						"x": 66,
+						"y": 1217,
+						"w": 32,
+						"h": 23
+					}
+				},
+				{
+					"filename": "run/itch_run_sheet-Sheet-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 26,
+						"w": 19,
+						"h": 32
+					},
+					"frame": {
+						"x": 44,
+						"y": 1225,
+						"w": 19,
+						"h": 32
+					}
+				},
+				{
+					"filename": "run_turnaround/run_turnaround_sheet-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 18,
+						"w": 19,
+						"h": 32
+					},
+					"frame": {
+						"x": 22,
+						"y": 1256,
+						"w": 19,
+						"h": 32
+					}
+				},
+				{
+					"filename": "run_turnaround/run_turnaround_sheet-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 30,
+						"y": 19,
+						"w": 19,
+						"h": 31
+					},
+					"frame": {
+						"x": 1,
+						"y": 1278,
+						"w": 19,
+						"h": 31
+					}
+				},
+				{
+					"filename": "run/itch_run_sheet-Sheet-21.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 30,
+						"w": 20,
+						"h": 30
+					},
+					"frame": {
+						"x": 100,
+						"y": 1236,
+						"w": 20,
+						"h": 30
+					}
+				},
+				{
+					"filename": "hurt/itch_hurt_2_sheet-Sheet-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 38,
+						"w": 28,
+						"h": 22
+					},
+					"frame": {
+						"x": 65,
+						"y": 1242,
+						"w": 28,
+						"h": 22
+					}
+				},
+				{
+					"filename": "run_turnaround/run_turnaround_sheet-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 30,
+						"y": 20,
+						"w": 19,
+						"h": 30
+					},
+					"frame": {
+						"x": 43,
+						"y": 1259,
+						"w": 19,
+						"h": 30
+					}
+				},
+				{
+					"filename": "run/itch_run_sheet-Sheet-9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 29,
+						"w": 18,
+						"h": 31
+					},
+					"frame": {
+						"x": 22,
+						"y": 1290,
+						"w": 18,
+						"h": 31
+					}
+				},
+				{
+					"filename": "jump/itch_jump_sheet-Sheet-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 26,
+						"w": 16,
+						"h": 34
+					},
+					"frame": {
+						"x": 1,
+						"y": 1311,
+						"w": 16,
+						"h": 34
+					}
+				},
+				{
+					"filename": "hurt/itch_hurt_2_sheet-Sheet-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 38,
+						"w": 28,
+						"h": 22
+					},
+					"frame": {
+						"x": 64,
+						"y": 1266,
+						"w": 28,
+						"h": 22
+					}
+				},
+				{
+					"filename": "hurt/itch_hurt_2_sheet-Sheet-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 38,
+						"w": 28,
+						"h": 22
+					},
+					"frame": {
+						"x": 94,
+						"y": 1268,
+						"w": 28,
+						"h": 22
+					}
+				},
+				{
+					"filename": "jump/itch_jump_sheet-Sheet-16.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 36,
+						"w": 25,
+						"h": 24
+					},
+					"frame": {
+						"x": 64,
+						"y": 1290,
+						"w": 25,
+						"h": 24
+					}
+				},
+				{
+					"filename": "jump/itch_jump_sheet-Sheet-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 26,
+						"w": 16,
+						"h": 34
+					},
+					"frame": {
+						"x": 42,
+						"y": 1291,
+						"w": 16,
+						"h": 34
+					}
+				},
+				{
+					"filename": "light_attack/itch_light_attack_sheet-Sheet-23.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 34,
+						"w": 21,
+						"h": 26
+					},
+					"frame": {
+						"x": 19,
+						"y": 1323,
+						"w": 21,
+						"h": 26
+					}
+				},
+				{
+					"filename": "jump/itch_jump_sheet-Sheet-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 26,
+						"w": 15,
+						"h": 34
+					},
+					"frame": {
+						"x": 1,
+						"y": 1347,
+						"w": 15,
+						"h": 34
+					}
+				},
+				{
+					"filename": "light_attack/itch_light_attack_sheet-Sheet-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 35,
+						"w": 24,
+						"h": 25
+					},
+					"frame": {
+						"x": 91,
+						"y": 1292,
+						"w": 24,
+						"h": 25
+					}
+				},
+				{
+					"filename": "light_attack/itch_light_attack_sheet-Sheet-22.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 37,
+						"w": 26,
+						"h": 23
+					},
+					"frame": {
+						"x": 60,
+						"y": 1316,
+						"w": 26,
+						"h": 23
+					}
+				},
+				{
+					"filename": "run/itch_run_sheet-Sheet-19.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 30,
+						"w": 18,
+						"h": 30
+					},
+					"frame": {
+						"x": 88,
+						"y": 1319,
+						"w": 18,
+						"h": 30
+					}
+				},
+				{
+					"filename": "jump/itch_jump_sheet-Sheet-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 28,
+						"w": 17,
+						"h": 31
+					},
+					"frame": {
+						"x": 108,
+						"y": 1319,
+						"w": 17,
+						"h": 31
+					}
+				},
+				{
+					"filename": "jump/itch_jump_sheet-Sheet-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 35,
+						"w": 21,
+						"h": 25
+					},
+					"frame": {
+						"x": 42,
+						"y": 1341,
+						"w": 21,
+						"h": 25
+					}
+				},
+				{
+					"filename": "run/itch_run_sheet-Sheet-20.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 31,
+						"w": 18,
+						"h": 29
+					},
+					"frame": {
+						"x": 18,
+						"y": 1351,
+						"w": 18,
+						"h": 29
+					}
+				},
+				{
+					"filename": "jump/itch_jump_sheet-Sheet-17.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 34,
+						"w": 20,
+						"h": 26
+					},
+					"frame": {
+						"x": 65,
+						"y": 1341,
+						"w": 20,
+						"h": 26
+					}
+				},
+				{
+					"filename": "light_attack/itch_light_attack_sheet-Sheet-24.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 33,
+						"w": 19,
+						"h": 27
+					},
+					"frame": {
+						"x": 38,
+						"y": 1368,
+						"w": 19,
+						"h": 27
+					}
+				},
+				{
+					"filename": "run/itch_run_sheet-Sheet-7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 30,
+						"w": 17,
+						"h": 30
+					},
+					"frame": {
+						"x": 87,
+						"y": 1351,
+						"w": 17,
+						"h": 30
+					}
+				},
+				{
+					"filename": "run/itch_run_sheet-Sheet-8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 32,
+						"w": 17,
+						"h": 28
+					},
+					"frame": {
+						"x": 106,
+						"y": 1352,
+						"w": 17,
+						"h": 28
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:a273a4f973e7af4ab02a24fb4b071538:c19c1694bf30163f2d17c12b2c757900:767a4ced6ca6a50a00efb0e70023a14a$"
+	}
+}
