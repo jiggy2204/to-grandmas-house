@@ -11,7 +11,11 @@ class Level1 extends Phaser.Scene {
     );
 
     //Player
-    this.load.image("player", "../_sprites/redridinghood/wall_slide_sheet.png");
+    this.load.atlas(
+      "player",
+      "../_sprites/redridinghood/sprite_red_itch.png",
+      "../_sprites/redridinghood/sprite_red_itch.json"
+    );
 
     //Load Flower Image
     this.load.image("flower", "../_collectables/flowers/094.png");
@@ -25,6 +29,9 @@ class Level1 extends Phaser.Scene {
   }
 
   create() {
+    // if game is playable (not game over)
+    gameState.active = true;
+
     //create background
     const level1_bg = this.add.image(0, 0, "levelbg").setOrigin(0, 0);
     level1_bg.setScale(0.5, 0.5);
@@ -37,23 +44,41 @@ class Level1 extends Phaser.Scene {
     );
 
     //add platform layer
-    const platforms = map.createStaticLayer(
+    const platforms = level1_map.createStaticLayer(
       "Platforms",
       level1_tileset,
       0,
-      200
+      0
     );
 
     // Layer can collide with other objects
     platforms.setCollisionByExclusion(-1, true);
 
-    //add collision to player
-    gameState.player = this.physics.add
-      .sprite(100, 550, "player")
-      .setScale(0.5);
+    //Layer can collide with sprite
+    this.physics.add.collider(gameState.player, platforms);
 
-    //Add Collision to player
-    gameState.player.setCollideWorldBounds(true);
+    //ANIMATIONS FOR PLAYER
+    var idle = this.textures.addSpriteSheetFromAtlas("idle", {
+      atlas: "player",
+      frame: "idle_sheet-Sheet",
+      frameWidth: 75,
+      frameHeight: 100,
+      endFrame: 12,
+    });
+
+    var idleConfig = {
+      key: "idle-anim",
+      frames: this.anims.generateFrameNumbers("idle", {
+        start: 0,
+        end: 23,
+        first: 23,
+      }),
+      frameRate: 15,
+      repeat: -1,
+    };
+
+    this.anims.create(idleConfig);
+    this.add.sprite(50, 350).play("idle-anim");
 
     //create cursor keys
     gameState.cursors = this.input.keyboard.createCursorKeys();

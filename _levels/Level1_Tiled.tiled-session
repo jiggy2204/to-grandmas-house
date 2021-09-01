@@ -19,11 +19,11 @@
             }
         },
         "level_01/level_01_tiledMap.tmx": {
-            "scale": 1.5,
-            "selectedLayer": 1,
+            "scale": 2,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": 844.3333333333333,
-                "y": 290
+                "x": 1283.75,
+                "y": 265.5
             }
         },
         "level_01/level_01_tiledMap.tmx#flower_tile": {
