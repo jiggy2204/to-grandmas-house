@@ -1,0 +1,25 @@
+{
+    "activeFile": "level_01/level_01.tmx",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "level_01/BasicGreen.tsx": {
+            "scaleInDock": 1
+        },
+        "level_01/level_01.tmx": {
+            "scale": 0.32749023437499997,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 514.5191590875206,
+                "y": 161.8368868346504
+            }
+        }
+    },
+    "openFiles": [
+        "level_01/level_01.tmx"
+    ],
+    "project": "",
+    "recentFiles": [
+        "level_01/level_01.tmx"
+    ]
+}
