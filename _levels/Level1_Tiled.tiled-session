@@ -1,25 +1,63 @@
 {
-    "activeFile": "level_01/level_01.tmx",
+    "activeFile": "level_01/level_01_tiledMap.tmx",
     "expandedProjectPaths": [
     ],
     "fileStates": {
-        "level_01/BasicGreen.tsx": {
+        "": {
             "scaleInDock": 1
         },
+        "level_01/BasicGreen.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
         "level_01/level_01.tmx": {
-            "scale": 0.32749023437499997,
+            "scale": 1,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 514.5191590875206,
-                "y": 161.8368868346504
+                "x": 1129.5,
+                "y": 506
             }
+        },
+        "level_01/level_01_tiledMap.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 844.3333333333333,
+                "y": 290
+            }
+        },
+        "level_01/level_01_tiledMap.tmx#flower_tile": {
+            "scaleInDock": 1
+        },
+        "level_01/level_01_tiledMap.tmx#flower_tileset": {
+            "dynamicWrapping": true
+        },
+        "level_01/level_01_tiledMap.tmx#level_01_platformer": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
         }
     },
+    "last.exportedFilePath": "C:/Users/Jen Ignacio/Desktop/www/to-grandmas-house/_levels/tilemaps",
+    "last.imagePath": "C:/Users/Jen Ignacio/Desktop/www/to-grandmas-house/_collectables/flowers",
+    "map.height": 32,
+    "map.lastUsedExportFilter": "JSON map files (*.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 64,
     "openFiles": [
-        "level_01/level_01.tmx"
+        "level_01/level_01_tiledMap.tmx"
     ],
     "project": "",
     "recentFiles": [
+        "level_01/level_01_tiledMap.tmx",
+        "level_01/BasicGreen.tsx",
         "level_01/level_01.tmx"
-    ]
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    },
+    "tileset.type": 0
 }
