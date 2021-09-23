@@ -76,6 +76,8 @@ class Level1 extends Phaser.Scene {
       "idle/idle_sheet-Sheet-0.png"
     );
 
+    gameState.player.setInteractive();
+
     // Layer can collide with other objects
     platforms.setCollisionByExclusion(-1, true);
 
@@ -86,8 +88,8 @@ class Level1 extends Phaser.Scene {
     var idleFrame = this.anims.generateFrameNames("player", {
       start: 0,
       end: 17,
-      zeroPad: 0,
-      prefix: "idle_sheet-Sheet-",
+      zeroPad: 1,
+      prefix: "idle/idle_sheet-Sheet-",
       suffix: ".png",
     });
 
@@ -95,6 +97,21 @@ class Level1 extends Phaser.Scene {
       key: "idle",
       frames: idleFrame,
       frameRate: 15,
+      repeat: -1,
+    });
+
+    var runFrame = this.anims.generateFrameNames("player", {
+      start: 0,
+      end: 23,
+      zeroPad: 1,
+      prefix: "run/itch_run_sheet-Sheet-",
+      suffix: ".png",
+    });
+
+    this.anims.create({
+      key: "run",
+      frames: runFrame,
+      frameRate: 17,
       repeat: -1,
     });
 
@@ -106,5 +123,6 @@ class Level1 extends Phaser.Scene {
 
   update() {
     //Add player conditional statements for movement
+
   }
 }

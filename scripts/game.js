@@ -1,5 +1,6 @@
 const gameState = {
   score: 0,
+  flowers: 0,
 };
 
 const config = {
