@@ -3,7 +3,7 @@ const gameState = {
   flowers: 0,
 };
 
-const config = {
+var config = {
   type: Phaser.AUTO,
   width: 768,
   height: 500,
@@ -18,4 +18,4 @@ const config = {
   scene: [Level1, GameOver, WinGame],
 };
 
-const game = new Phaser.Game(config);
+var game = new Phaser.Game(config);

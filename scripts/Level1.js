@@ -58,6 +58,8 @@ class Level1 extends Phaser.Scene {
       const flower = gameState.flower
         .create(flowerObject.x, flowerObject.y - flowerObject.height, "flower")
         .setOrigin(0, -0.35);
+
+        return flower;
     });
 
     //add platform layer
@@ -69,15 +71,15 @@ class Level1 extends Phaser.Scene {
     );
 
     //Player
-    gameState.player = this.add.sprite(
+    gameState.player = this.physics.add.sprite(
       50,
       450,
       "player",
       "idle/idle_sheet-Sheet-0.png"
     );
 
-    gameState.player.setInteractive();
-
+    
+ 
     // Layer can collide with other objects
     platforms.setCollisionByExclusion(-1, true);
 
@@ -85,6 +87,8 @@ class Level1 extends Phaser.Scene {
     this.physics.add.collider(gameState.player, platforms);
 
     //ANIMATIONS FOR PLAYER
+
+    //IDLE ANIMATION
     var idleFrame = this.anims.generateFrameNames("player", {
       start: 0,
       end: 17,
@@ -100,6 +104,7 @@ class Level1 extends Phaser.Scene {
       repeat: -1,
     });
 
+    //RUNNING ANIMATION
     var runFrame = this.anims.generateFrameNames("player", {
       start: 0,
       end: 23,
@@ -108,21 +113,78 @@ class Level1 extends Phaser.Scene {
       suffix: ".png",
     });
 
-    this.anims.create({
+  this.anims.create({
       key: "run",
       frames: runFrame,
       frameRate: 17,
       repeat: -1,
     });
 
-    gameState.player.anims.play("idle");
+    //JUMPING ANIMATION
+    var jumpFrame = this.anims.generateFrameNames("player", {
+      start: 0,
+      end: 18,
+      zeroPad: 1,
+      prefix: "jump/itch_jump_sheet-Sheet-",
+      suffix: ".png",
+    })
 
+    this.anims.create({
+      key: "jump",
+      frames: jumpFrame,
+      frameRate: 17,
+      repeat: 1,
+    })
+
+    //WALLSLIDE ANIMATION
+
+    var wallSlideFrame = this.anims.generateFrameNames("player", {
+      start: 0,
+      end: 3,
+      zeroPad: 1,
+      prefix: "wall_slide/wall_slide_sheet-",
+      suffix: ".png",
+    })
+
+    this.anims.create({
+      key: "wallslide",
+      frames: wallSlideFrame,
+      frameRate: 17,
+      repeat: 0,   
+    })
+    
+    //Add player conditional statements for movement
+    gameState.player.anims.play("idle");
     //create cursor keys
     gameState.cursors = this.input.keyboard.createCursorKeys();
+    gameState.player.setCollideWorldBounds(true);
+
+    
   }
 
   update() {
-    //Add player conditional statements for movement
+    gameState.player.setVelocity(0);
 
+    if (gameState.active) {
+      if (gameState.cursors.right.isDown) {
+        gameState.player.setVelocityX(250);
+        gameState.player.anims.play('run', true);
+				gameState.player.flipX = false;
+        
+      } else if (gameState.cursors.left.isDown) {
+        gameState.player.setVelocityX(-250);
+        gameState.player.anims.play('run', true);
+				gameState.player.flipX = true;
+        
+      } else {
+        gameState.player.setVelocityX(0);
+        gameState.player.anims.play('idle', true);
+      }
+
+      if ((gameState.cursors.space.isDown || gameState.cursors.up.isDown)&& gameState.player.body.touching.down) {
+        gameState.player.anims.play('jump', true);
+        gameState.player.setVelocityY(-400);
+      }
+    }
   }
 }
